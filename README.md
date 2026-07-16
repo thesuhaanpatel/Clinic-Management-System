@@ -39,14 +39,13 @@ A modern, lightweight Clinic Management System built with Next.js, designed for 
 - Register memberships
 - Simple workflow for front desk staff
 
----
 
  🛠️ Tech Stack
 
 - Framework: Next.js 15
 - Language: TypeScript
 - UI: React
-- Styling:** Tailwind CSS
+- Styling: Tailwind CSS
 - Components: shadcn/ui
 - Database: SQLite
 - ORM: Drizzle ORM
@@ -59,17 +58,17 @@ A modern, lightweight Clinic Management System built with Next.js, designed for 
  Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/clinic-management.git
+git clone https://github.com/thesuhaanpatel/Clinic-Management-System.git
 cd clinic-management
 ```
 
-### Install dependencies
+ Install dependencies
 
 ```bash
 npm install
 ```
 
-### Run database migrations
+Run database migrations
 
 ```bash
 npx drizzle-kit push
@@ -81,12 +80,12 @@ Start development server
 npm run dev
 ```
 
-Open **http://localhost:3000**
+Open http://localhost:3000
 
 
 Database
 
- This project uses SQLite with Drizzle ORM, making it ideal for small clinics that prefer local data storage without recurring cloud database costs.
+This project uses SQLite with Drizzle ORM, making it ideal for small clinics that prefer local data storage without recurring cloud database costs.
 
 
 Future Improvements
@@ -101,10 +100,8 @@ Future Improvements
 - Backup & Restore
 - Multi-Clinic Support
 
-
 Why This Project?
-
- Many small clinics don't require large, cloud-hosted hospital management systems. This project focuses on delivering a clean, fast, and cost-effective solution that can run locally while covering the essential day-to-day clinic operations.
+Many small clinics don't require large, cloud-hosted hospital management systems. This project focuses on delivering a clean, fast, and cost-effective solution that can run locally while covering the essential day-to-day clinic operations.
 
 
 
